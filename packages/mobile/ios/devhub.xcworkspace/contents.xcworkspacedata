@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:/Users/khulnasoft/Projects/octohub/octohub/packages/mobile/ios/octohub.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:octohub.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:OctoHub.xcodeproj">
+   </FileRef>
+</Workspace>

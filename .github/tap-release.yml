@@ -1,0 +1,16 @@
+asset: OctoHub-$STABLE_VERSION_NUMBER.dmg
+tap: khulnasoft/homebrew-octohub/Casks/octohub.rb
+template: >
+  cask 'octohub' do
+    app           "OctoHub.app"
+    name          "OctoHub"
+    desc          "$REPO_DESCRIPTION"
+    homepage      "$REPO_WEBITE"
+
+    version       "$STABLE_VERSION"
+    url           "$STABLE_ASSET_URL"
+    sha256        "$STABLE_ASSET_SHA256"
+
+    appcast       "https://github.com/khulnasoft/octohub/releases.atom"
+    auto_updates  true
+  end
